@@ -8,7 +8,7 @@
             </v-list-item>
             <v-card-actions class="justify-center">
                 <v-btn type="primary" to="/tests">
-                    Go tests!
+                    Go to tests!
                 </v-btn>
             </v-card-actions>
         </v-card>
