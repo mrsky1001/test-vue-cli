@@ -44,8 +44,6 @@ export default {
     },
     methods: {
         setTest(selectedTest) {
-            console.log("selectedTest")
-            console.log(selectedTest)
             this.$store.dispatch("setTest", selectedTest)
         },
     },
