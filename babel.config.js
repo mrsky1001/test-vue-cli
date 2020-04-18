@@ -1,3 +1,8 @@
 module.exports = {
-  presets: ["@vue/cli-plugin-babel/preset"]
-};
+    presets: ["@babel/preset-env"],
+    plugins: [
+        ["@babel/plugin-transform-runtime", { regenerator: true }],
+        ["@babel/plugin-proposal-decorators", { legacy: true }],
+        ["@babel/plugin-proposal-class-properties", { loose: true }],
+    ],
+}
