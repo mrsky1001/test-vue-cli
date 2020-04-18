@@ -24,11 +24,7 @@
                                             <div>
                                                 <v-row v-if="answer.image !== undefined">
                                                     <v-col>
-                                                        <v-img
-                                                            width="150"
-                                                            disabled="disabled"
-                                                            :src="answer.image"
-                                                        />
+                                                        <v-img width="150" disabled="disabled" :src="answer.image" />
                                                     </v-col>
                                                 </v-row>
                                                 <v-row>
