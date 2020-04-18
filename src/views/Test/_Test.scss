@@ -1,14 +1,10 @@
-.Test {
-    // Vars
+.test {
+  &-v-card {
+    margin-bottom: 20px !important;
+    padding: 20px !important;
+  }
 
-    // Support
-
-    // Module
-    & {
-        //
-    }
-
-    // Facets
-
-    // States
+  &-hide-shadow {
+    box-shadow: none;
+  }
 }
